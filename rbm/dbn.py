@@ -5,14 +5,14 @@ import sys
 import time
 
 import numpy
-
 import theano
 import theano.tensor as T
 from theano.tensor.shared_randomstreams import RandomStreams
 
-from logistic_sgd import LogisticRegression, load_data
+from rbm.logistic_sgd import LogisticRegression, load_data
 from mlp import HiddenLayer
 from rbm import RBM
+
 
 
 # start-snippet-1
